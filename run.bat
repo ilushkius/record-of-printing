@@ -1,0 +1,1 @@
+java -jar target/record-of-printing-0.0.1-SNAPSHOT.jar
