@@ -21,7 +21,7 @@ import com.fasterxml.jackson.annotation.JsonPropertyOrder;
 
 @Entity
 @Table(name = "job")
-@JsonPropertyOrder({"jobId", "device", "user", "type", "amount", "time"})
+@JsonPropertyOrder({"id", "device", "user", "type", "amount", "time"})
 public final class Job {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
