@@ -18,6 +18,7 @@ import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonPropertyOrder;
+import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlProperty;
 
 @Entity
 @Table(name = "job")
@@ -30,6 +31,7 @@ public final class Job {
     private int jobId;
 
     @JsonProperty(value = "jobId")
+    @JacksonXmlProperty(localName = "id", isAttribute = true)
     @Column(name = "id")
     private int id;
 

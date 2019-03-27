@@ -1,0 +1,8 @@
+com/ilushkius/printingdevices/recordofprinting/service/JobService.class
+com/ilushkius/printingdevices/recordofprinting/service/JobServiceImpl.class
+com/ilushkius/printingdevices/recordofprinting/spec/JobSpecifications.class
+com/ilushkius/printingdevices/recordofprinting/rest/JobRestController.class
+com/ilushkius/printingdevices/recordofprinting/RecordOfPrintingApplication.class
+com/ilushkius/printingdevices/recordofprinting/entity/Job.class
+com/ilushkius/printingdevices/recordofprinting/dao/JobRepository.class
+com/ilushkius/printingdevices/recordofprinting/entity/Type.class

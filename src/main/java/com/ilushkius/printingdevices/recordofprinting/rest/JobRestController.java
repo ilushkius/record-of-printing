@@ -37,7 +37,6 @@ public class JobRestController {
             result.computeIfPresent(job.getUser(),
                     (key, value) -> value + job.getAmount());
             result.putIfAbsent(job.getUser(), job.getAmount());
-            System.out.println(result);
             job.setTime(LocalDateTime.now());
             job.setJobId(0);
             jobService.save(job);
