@@ -1,8 +1,0 @@
-/home/iluskius/eclipse-workspace/record-of-printing/src/main/java/com/ilushkius/printingdevices/recordofprinting/entity/Job.java
-/home/iluskius/eclipse-workspace/record-of-printing/src/main/java/com/ilushkius/printingdevices/recordofprinting/service/JobServiceImpl.java
-/home/iluskius/eclipse-workspace/record-of-printing/src/main/java/com/ilushkius/printingdevices/recordofprinting/rest/JobRestController.java
-/home/iluskius/eclipse-workspace/record-of-printing/src/main/java/com/ilushkius/printingdevices/recordofprinting/service/JobService.java
-/home/iluskius/eclipse-workspace/record-of-printing/src/main/java/com/ilushkius/printingdevices/recordofprinting/RecordOfPrintingApplication.java
-/home/iluskius/eclipse-workspace/record-of-printing/src/main/java/com/ilushkius/printingdevices/recordofprinting/dao/JobRepository.java
-/home/iluskius/eclipse-workspace/record-of-printing/src/main/java/com/ilushkius/printingdevices/recordofprinting/entity/Type.java
-/home/iluskius/eclipse-workspace/record-of-printing/src/main/java/com/ilushkius/printingdevices/recordofprinting/spec/JobSpecifications.java
