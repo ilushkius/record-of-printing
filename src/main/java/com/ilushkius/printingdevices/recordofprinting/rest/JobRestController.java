@@ -31,7 +31,6 @@ public class JobRestController {
     @PostMapping(path = "/jobs", consumes = MediaType.APPLICATION_XML_VALUE)
     public Map<String, Integer> addJobs(final @RequestBody List<Job> jobs) {
         Map<String, Integer> result = new HashMap<String, Integer>();
-        System.out.println("\n" + jobs);
 
         for (Job job : jobs) {
             result.computeIfPresent(job.getUser(),
